@@ -1,0 +1,36 @@
+- model: shop.product
+  pk: 1
+  fields:
+    category: 1
+    name: Кровать офигенная
+    slug: stuning_bed
+    description: Это суровая кровать Сильвестера В'Столовой. Спит, будто мертвый. Высыпается, как Бог.
+    price: 400
+    stock: 999
+    available: true
+    created: 2015-06-15 23:30:01.000321+00:00
+    updated: 2015-06-15 23:30:01.000321+00:00
+- model: shop.product
+  pk: 2
+  fields:
+    category: 2
+    name: Диван красивый
+    slug: beatiful_sofa
+    description: Красота - страшная сила. Как страшен в своей красоте этот диван!
+    price: 350
+    stock: 998
+    available: true
+    created: 2015-06-15 23:30:01.000321+00:00
+    updated: 2015-06-15 23:30:01.000321+00:00
+- model: shop.product
+  pk: 3
+  fields:
+    category: 3
+    name: Кресло крутое
+    slug: cool_seat
+    description: Сидишь, кайфуешь
+    price: 500
+    stock: 1
+    available: true
+    created: 2015-06-15 23:30:01.000321+00:00
+    updated: 2015-06-15 23:30:01.000321+00:00

@@ -1,0 +1,15 @@
+- model: shop.category
+  pk: 1
+  fields:
+    name: Кровати
+    slug: beds
+- model: shop.category
+  pk: 2
+  fields:
+    name: Диваны
+    slug: sofas
+- model: shop.category
+  pk: 3
+  fields:
+    name: Кресла
+    slug: seats
