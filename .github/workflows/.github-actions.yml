@@ -30,4 +30,5 @@ jobs:
           pycodestyle shop/*.py cart/*.py
       - name: Test with pytest
         run: |
+          cd djangoshop
           python manage.py test
