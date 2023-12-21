@@ -26,8 +26,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Lint with pycodestyle
         run: |
-          pycodestyle shop/*.py
-          pycodestyle cart/*.py
+          pycodestyle shop/*.py cart/*.py
       - name: Test with pytest
         run: |
           python manage.py test
